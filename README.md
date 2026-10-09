@@ -45,7 +45,7 @@ Op-Amp Channel B of MCP6002 is configured as a unity-gain voltage follower (conn
 
 Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using small-signal AC frequency analysis.
 
-![LTSpice_schematic](docs\LTSpice_schematic.png)
+![LTSpice_schematic](docs/LTSpice_schematic.png)
 
 <br />
 
@@ -56,9 +56,6 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
 * **Stopband Attenuation:** Confirmed $-40\text{ dB/decade}$ attenuation slope above cutoff frequency.
 
 <table align="center">
-    <caption style="caption-side: bottom">
-        Measurings on the Bode plot output for the V(out) trace (Gain = 1).
-    </caption>
     <thead>
         <tr>
             <th scope="col">Frequency at -3 dB</th>
@@ -80,6 +77,9 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
         </tr> 
     </tbody> 
 </table>
+<p align="center">
+  <em>Measurings on the Bode plot output for the V(out) trace (Gain = 1).</em>
+</p>
 
 <br />
 
@@ -87,7 +87,7 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
 
 ## Board Pinout & Interface
 
-![KiCad_schematic](docs\kicad_shcematic.jpg)
+![KiCad_schematic](docs/kicad_shcematic.jpg)
 
 | Header | Pin | Name | Type | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -104,9 +104,6 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
 ## PCB Layout Considerations
 
 <table align="center">
-    <caption style="caption-side: bottom">
-        3D Views of the PCB design.
-    </caption>
     <thead>
         <tr>
             <th scope="col">PCB Front 3D View with Visible Compements</th>
@@ -149,6 +146,9 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
         </tr> 
     </tbody> 
 </table>
+<p align="center">
+  <em>3D Views of the PCB design.</em>
+</p>
 
 <br />
 
