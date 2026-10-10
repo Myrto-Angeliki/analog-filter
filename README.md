@@ -106,8 +106,8 @@ Prior to layout, the Sallen-Key low-pass filter was validated in LTspice using s
 <table align="center">
     <thead>
         <tr>
-            <th scope="col">PCB Front 3D View with Visible Compements</th>
-            <th scope="col">PCB Back 3D View with Visible Compements</th>
+            <th scope="col">PCB Front 3D View with Visible Components</th>
+            <th scope="col">PCB Back 3D View with Visible Components</th>
         </tr>
     </thead>
     <tbody> 
